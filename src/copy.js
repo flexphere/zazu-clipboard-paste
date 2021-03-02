@@ -18,7 +18,11 @@ module.exports = (pluginContext) => {
         const image = nativeImage.createFromPath(path.resolve(cwd, clip.raw))
         clipboard.writeImage(image)
       }
-      ks.sendCombination(['control', 'v']);
+      setTimeout(()=>{
+        electron.dialog.showErrorBox("エラー", "テスト");
+        ks.sendCombination(['control', 'v']);
+      }, 500);
     })
   }
 }
+
