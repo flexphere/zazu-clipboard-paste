@@ -1,7 +1,7 @@
 const path = require('path')
 const CappedClient = require('./lib/cappedClient')
 const { clipboard, nativeImage } = require('electron')
-const ks = require('./lib/node-key-sender/key-sender');
+const ks = require('node-key-sender');
 
 /**
  * Given an id, copy the data to the clipboard.

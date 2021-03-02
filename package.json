@@ -1,5 +1,5 @@
 {
-  "name": "zazu-clipboard",
+  "name": "zazu-clipboard-paste",
   "version": "1.1.0",
   "description": "A clipboard manager for Zazu.",
   "main": "monitor.js",
@@ -7,6 +7,7 @@
     "color": "^3.1.1",
     "js-htmlencode": "^0.3.0",
     "nestdb": "^2.0.0",
+    "node-key-sender": "^1.0.11",
     "s-ago": "^2.0.1"
   },
   "scripts": {
@@ -16,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/tinytacoteam/zazu-clipboard.git"
+    "url": "git+ssh://git@github.com/flexphere/zazu-clipboard-paste.git"
   },
   "keywords": [
     "clipboard",
@@ -25,12 +26,12 @@
     "manager",
     "zazu"
   ],
-  "author": "Blaine Schmeisser",
+  "author": "ankh davis",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/tinytacoteam/zazu-clipboard/issues"
+    "url": "https://github.com/flexphere/zazu-clipboard-paste/issues"
   },
-  "homepage": "https://github.com/tinytacoteam/zazu-clipboard#readme",
+  "homepage": "https://github.com/flexphere/zazu-clipboard-paste#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "eslint": "^5.16.0",
