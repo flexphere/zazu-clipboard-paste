@@ -19,10 +19,11 @@ module.exports = (pluginContext) => {
         clipboard.writeImage(image)
       }
       setTimeout(()=>{
-        electron.dialog.showErrorBox("エラー", "テスト");
         ks.sendCombination(['control', 'v']);
       }, 500);
     })
   }
 }
+
+
 
